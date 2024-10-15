@@ -4,7 +4,6 @@ from main import BooksCollector
 class TestBooksCollector:
 
     def setup_method(self):
-        """Инициализация перед каждым тестом."""
         self.collector = BooksCollector()
 
     def test_add_new_book(self):
